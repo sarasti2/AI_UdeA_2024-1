@@ -35,4 +35,4 @@ gbm = gbm.fit(X_train, y_train)
 
 logger.info(f"saving model to {model_file}")
 with open(model_file, "wb") as f:
-    pickle.dump(m, f)
+    pickle.dump(gbm, f)
