@@ -27,7 +27,7 @@ if not os.path.isfile(input_file):
     
     
 logger.info("loading input data")
-Xts = pd.read_csv(input_file).values[:,:-1]
+Xts = pd.read_csv(input_file).values[]
 
 
 logger.info("loading model")
