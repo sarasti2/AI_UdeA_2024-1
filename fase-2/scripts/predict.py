@@ -1,6 +1,6 @@
 import argparse
 import numpy as np
-from sklearn.ensemble import RandomForestClassifier
+import xgboost as xgb
 from loguru import logger
 import os
 import pandas as pd
