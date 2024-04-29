@@ -1,0 +1,13 @@
+From python:3.9
+
+WORKDIR / C:\Users\USER\Downloads\IA_2024
+
+COPY . / C:\Users\USER\Downloads\IA_2024
+COPY requierements.txt . 
+
+
+RUN pip install -r requirements.txt
+
+COPY . .
+
+CMD [ "python", "predict.py" ]
