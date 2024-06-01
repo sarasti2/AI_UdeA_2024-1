@@ -31,4 +31,5 @@ Los datos del proyecto vienen de La competición de Kaggle ["Predicting Red Hat 
 
     docker run -it -p 5001:5000 api
 
-3. En un terminal dedicado corra el archivo [client.py](
+3. En un terminal dedicado corra el archivo [client.py](fase-3/client.py)
+4. 
