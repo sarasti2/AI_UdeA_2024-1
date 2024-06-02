@@ -34,7 +34,7 @@ Los datos del proyecto vienen de La competición de Kaggle ["Predicting Red Hat 
 
 Notas: 
 
-a. Para correr esta fase requiere tener instalado (docker)[https://www.docker.com/).
+a. Para correr esta fase requiere tener instalado [docker](https://www.docker.com/).
 
 b. Se puede correr sin construir el docker, el codigo debe modificarse cambiando el puerto de 50001 a 5000.
 Y correr el archivo [server.py](fase-3/server.py) en una terminal dedicada.
