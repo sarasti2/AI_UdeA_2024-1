@@ -22,8 +22,6 @@ Los datos del proyecto vienen de La competición de Kaggle ["Predicting Red Hat 
 
 ### fase-3
 
-Nota: Para correr esta fase requiere tener instalado (docker)[https://www.docker.com/)
-
 1. Construya el docker
 
     docker build -t api .
@@ -33,4 +31,7 @@ Nota: Para correr esta fase requiere tener instalado (docker)[https://www.docker
     docker run -it -p 5001:5000 api
 
 3. En un terminal dedicado corra el archivo [client.py](fase-3/client.py)
+
+Notas: Para correr esta fase requiere tener instalado (docker)[https://www.docker.com/).
+Se puede correr sin construir el docker, el codigo debe modificarse cambiando el puerto de 50001 a 5000.
    
