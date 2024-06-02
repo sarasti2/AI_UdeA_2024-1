@@ -8,7 +8,7 @@ csv_file = 'fase-3/modelo/test.csv'
 df = pd.read_csv(csv_file).drop(['outcome', 'Unnamed: 0'], axis=1)
 
 # Take only the first row
-df = df
+df = df.head(1)
 
 # Convert DataFrame to standard Python types
 df = df.astype(object).where(pd.notnull(df), None)
