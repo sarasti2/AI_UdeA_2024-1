@@ -33,5 +33,7 @@ Los datos del proyecto vienen de La competición de Kaggle ["Predicting Red Hat 
 3. En un terminal dedicado corra el archivo [client.py](fase-3/client.py)
 
 Notas: Para correr esta fase requiere tener instalado (docker)[https://www.docker.com/).
+
 Se puede correr sin construir el docker, el codigo debe modificarse cambiando el puerto de 50001 a 5000.
+Y correr el archivo [server.py](fase-3/server.py) en una terminal dedicada.
    
