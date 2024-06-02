@@ -14,7 +14,8 @@ def predict():
      json_ = request.json
      df = pd.DataFrame(json_)
      prediction = xgb.predict(df)
-     return jsonify({'prediction': list(prediction)})
+     prediction = ' '.join(map(str, prediction))
+     return jsonify({'prediction': prediction})
 
 
 if __name__ == "__main__":
